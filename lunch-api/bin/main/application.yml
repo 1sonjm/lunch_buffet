@@ -1,8 +1,0 @@
-spring:
-  h2:
-    console:
-      enabled: true
-  data:
-      rest:
-        #TODO 기본 접근 경로 수정
-        base-path: /base/uri 
