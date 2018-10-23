@@ -2,10 +2,15 @@ package com.buffet.lunchapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 
-@EnableJpaAuditing
-// JPA Auditing 활성화
+@EnableAuthorizationServer
+// Oauth2 권한 서버
+
+@EnableResourceServer
+// API 접근시 인증 권한 설정
+
 @SpringBootApplication
 // 아래 annotaion 기능
 // @EnableAutoConfiguration: enable Spring Boot’s auto-configuration mechanism

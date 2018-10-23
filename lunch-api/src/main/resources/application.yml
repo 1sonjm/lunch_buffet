@@ -2,7 +2,25 @@ spring:
   h2:
     console:
       enabled: true
+      path: /h2-console
   data:
-      rest:
-        #TODO 기본 접근 경로 수정
-        base-path: /base/uri 
+    rest:
+      #TODO 기본 접근 경로 수정
+      base-path: /base/uri 
+  security:
+    user:
+      name: user
+      password: test
+
+security:
+  oauth2:
+    client:
+      client-id: foo
+      client-secret: bar
+
+logging:
+  level:
+    org:
+      springframework:
+        security: debug
+        boot: debug
