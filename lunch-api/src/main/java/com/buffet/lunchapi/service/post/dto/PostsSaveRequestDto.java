@@ -1,6 +1,6 @@
-package com.buffet.lunchapi.post.dto;
+package com.buffet.lunchapi.service.post.dto;
 
-import com.buffet.lunchapi.post.domain.Posts;
+import com.buffet.lunchapi.service.post.domain.Posts;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

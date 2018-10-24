@@ -1,4 +1,4 @@
-package com.buffet.lunchapi.user.domain;
+package com.buffet.lunchapi.service.user.domain;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

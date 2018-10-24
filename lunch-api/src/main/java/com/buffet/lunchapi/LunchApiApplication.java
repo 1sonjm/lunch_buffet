@@ -1,15 +1,12 @@
 package com.buffet.lunchapi;
 
+import javax.sql.DataSource;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
-import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
-
-@EnableAuthorizationServer
-// Oauth2 권한 서버
-
-@EnableResourceServer
-// API 접근시 인증 권한 설정
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.oauth2.provider.token.TokenStore;
+import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
 
 @SpringBootApplication
 // 아래 annotaion 기능
@@ -20,5 +17,10 @@ public class LunchApiApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(LunchApiApplication.class, args);
+    }
+
+    @Bean
+    public TokenStore JdbcTokenStore(DataSource dataSource) {
+        return new JdbcTokenStore(dataSource);
     }
 }

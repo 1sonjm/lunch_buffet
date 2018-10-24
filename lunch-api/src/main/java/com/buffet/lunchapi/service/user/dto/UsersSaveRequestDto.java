@@ -1,6 +1,6 @@
-package com.buffet.lunchapi.user.dto;
+package com.buffet.lunchapi.service.user.dto;
 
-import com.buffet.lunchapi.user.domain.Users;
+import com.buffet.lunchapi.service.user.domain.Users;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

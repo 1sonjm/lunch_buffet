@@ -1,4 +1,4 @@
-package com.buffet.lunchapi.post.domain;
+package com.buffet.lunchapi.service.post.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

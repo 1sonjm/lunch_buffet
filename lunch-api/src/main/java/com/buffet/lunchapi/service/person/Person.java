@@ -1,4 +1,4 @@
-package com.buffet.lunchapi.person;
+package com.buffet.lunchapi.service.person;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

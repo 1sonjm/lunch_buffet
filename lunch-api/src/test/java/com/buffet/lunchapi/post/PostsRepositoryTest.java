@@ -15,8 +15,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.buffet.lunchapi.user.domain.Users;
-import com.buffet.lunchapi.user.domain.UsersRepository;
+import com.buffet.lunchapi.service.user.domain.Users;
+import com.buffet.lunchapi.service.user.domain.UsersRepository;
 
 /**
  * Created by jojoldu@gmail.com on 2017. 12. 23. Blog :

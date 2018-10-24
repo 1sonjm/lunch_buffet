@@ -1,10 +1,10 @@
-package com.buffet.lunchapi.post;
+package com.buffet.lunchapi.service.post;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.buffet.lunchapi.post.domain.Posts;
-import com.buffet.lunchapi.post.domain.PostsRepository;
+import com.buffet.lunchapi.service.post.domain.Posts;
+import com.buffet.lunchapi.service.post.domain.PostsRepository;
 
 import lombok.AllArgsConstructor;
 

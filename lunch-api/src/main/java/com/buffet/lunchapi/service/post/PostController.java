@@ -1,12 +1,12 @@
-package com.buffet.lunchapi.post;
+package com.buffet.lunchapi.service.post;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.buffet.lunchapi.post.domain.PostsRepository;
-import com.buffet.lunchapi.post.dto.PostsSaveRequestDto;
+import com.buffet.lunchapi.service.post.domain.PostsRepository;
+import com.buffet.lunchapi.service.post.dto.PostsSaveRequestDto;
 
 import lombok.AllArgsConstructor;
 

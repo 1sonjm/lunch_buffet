@@ -1,10 +1,10 @@
-package com.buffet.lunchapi.user;
+package com.buffet.lunchapi.service.user;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.buffet.lunchapi.user.domain.Users;
-import com.buffet.lunchapi.user.domain.UsersRepository;
+import com.buffet.lunchapi.service.user.domain.Users;
+import com.buffet.lunchapi.service.user.domain.UsersRepository;
 
 import lombok.AllArgsConstructor;
 
